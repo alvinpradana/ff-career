@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-cow, #second-cow {
+    background-image: url("../assets/cow.png");
+    height: 334px;
+}
+
+#second-cow  {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
