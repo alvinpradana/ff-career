@@ -3,6 +3,14 @@ body {
     padding: 0;
 }
 
+.bg {
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    background-image: url('../assets/desktop-1/bg-1.png');
+    background-size: cover;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
