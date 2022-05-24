@@ -364,4 +364,139 @@ body .human-2 {
   bottom: 2.5vh;
   left: 3vh;
 }
+
+body .farm-6 {
+  position: absolute;
+  background-image: url("../assets/page-6/farm.svg");
+  background-size: cover;
+  width: 100%;
+  height: 55vh;
+  z-index: -1;
+  bottom: 16vh;
+}
+
+body .human-6 {
+  position: absolute;
+  background-image: url("../assets/page-6/human.svg");
+  background-size: cover;
+  width: 25vh;
+  height: 57vh;
+  z-index: 999;
+  bottom: 2.5vh;
+  left: 3vh;
+}
+
+body .board-6 {
+  background-image: url("../assets/page-6/board.svg");
+  background-size: cover;
+  position: absolute;
+  -webkit-transform: translate(12.5%, 30%);
+          transform: translate(12.5%, 30%);
+  width: 138vh;
+  height: 13vh;
+  z-index: 999;
+  font-family: 'Alfa Slab One', cursive;
+  color: #693514;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .left-fence {
+  position: absolute;
+  background-image: url("../assets/page-6/left-fence.svg");
+  background-size: cover;
+  width: 29vh;
+  height: 34vh;
+  bottom: 5vh;
+  left: 0;
+}
+
+body .right-fence {
+  position: absolute;
+  background-image: url("../assets/page-6/right-fence.svg");
+  background-size: cover;
+  width: 29vh;
+  height: 34vh;
+  right: 0;
+  bottom: 5vh;
+}
+
+body .land-6 {
+  position: absolute;
+  background-image: url("../assets/page-6/land.svg");
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+}
+
+body .card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  -webkit-transform: translate(3%, 20%);
+          transform: translate(3%, 20%);
+}
+
+body .card-row .card {
+  background-color: #fff;
+  border-radius: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 29vh;
+  height: 23vh;
+  margin: 1.3rem;
+  border: 1px solid #0A4EA2;
+}
+
+body .card-row .card h3 {
+  color: #0063B1;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+body .card-row .card img {
+  max-width: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
