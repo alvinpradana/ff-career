@@ -19,7 +19,7 @@ body .logo {
   height: 100%;
   left: 0;
   top: 0;
-  background-image: url("../assets/logo2.svg");
+  background-image: url("../assets/logo.svg");
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@ body .text-center .content {
 
 body .text-center .content .bird {
   position: absolute;
-  background-image: url("../assets/desktop-1/bird.png");
+  background-image: url("../assets/page-1/bird.png");
   background-size: auto;
   top: 19vh;
   right: -20vh;
@@ -102,7 +102,7 @@ body .arrow {
 }
 
 body .cloud-1 {
-  background-image: url("../assets/desktop-2/cloud-1.svg");
+  background-image: url("../assets/page-2/cloud-1.svg");
   background-size: cover;
   position: absolute;
   width: 77vh;
@@ -113,7 +113,7 @@ body .cloud-1 {
 
 body .cloud-2 {
   position: absolute;
-  background-image: url("../assets/desktop-2/cloud-2.svg");
+  background-image: url("../assets/page-2/cloud-2.svg");
   background-size: cover;
   width: 73vh;
   height: 38vh;
@@ -123,7 +123,7 @@ body .cloud-2 {
 
 body .land {
   position: absolute;
-  background-image: url("../assets/desktop-2/land.svg");
+  background-image: url("../assets/page-2/land.svg");
   background-size: cover;
   bottom: 0;
   left: 0;
@@ -133,7 +133,7 @@ body .land {
 
 body .fence {
   position: absolute;
-  background-image: url("../assets/desktop-2/fence.svg");
+  background-image: url("../assets/page-2/fence.svg");
   background-size: cover;
   width: 100%;
   height: 30vh;
@@ -143,7 +143,7 @@ body .fence {
 
 body .farm {
   position: absolute;
-  background-image: url("../assets/desktop-2/farm.svg");
+  background-image: url("../assets/page-2/farm.svg");
   background-size: cover;
   width: 100%;
   height: 63vh;
@@ -153,7 +153,7 @@ body .farm {
 
 body .cow-1 {
   position: absolute;
-  background-image: url("../assets/desktop-2/cow-1.svg");
+  background-image: url("../assets/page-2/cow-1.svg");
   background-size: cover;
   width: 14vh;
   height: 10vh;
@@ -172,14 +172,14 @@ body .row {
 
 body .row .cow-2 {
   position: absolute;
-  background-image: url("../assets/desktop-2/cow-2.png");
+  background-image: url("../assets/page-2/cow-2.png");
   background-size: auto;
   left: -127vh;
 }
 
 body .row .cow-3 {
   position: absolute;
-  background-image: url("../assets/desktop-2/cow-2.png");
+  background-image: url("../assets/page-2/cow-2.png");
   background-size: auto;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
@@ -189,7 +189,7 @@ body .row .cow-3 {
 
 body .board {
   position: absolute;
-  background-image: url("../assets/desktop-2/board.svg");
+  background-image: url("../assets/page-2/board.svg");
   background-size: cover;
   width: 71.5vh;
   height: 76vh;
@@ -221,5 +221,52 @@ body .board .subtitle {
   text-align: center;
   top: 18vh;
   left: 6vh;
+}
+
+body .board-2 {
+  background-image: url("../assets/page-3/board.svg");
+  background-size: cover;
+  position: absolute;
+  width: 71.3vh;
+  height: 51vh;
+  -webkit-transform: translate(80%, 55%);
+          transform: translate(80%, 55%);
+  z-index: 999;
+}
+
+body .board-2 .title {
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+  font-style: normal;
+  font-size: 2.6vw;
+  line-height: 5.2vh;
+  text-align: center;
+  font-weight: 600;
+  color: #0451A4;
+  -webkit-transform: translate(23%, 150%);
+          transform: translate(23%, 150%);
+}
+
+body .board-2 .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8vw;
+  line-height: 3.6vh;
+  text-align: center;
+  color: #000;
+  -webkit-transform: translate(5%, 270%);
+          transform: translate(5%, 270%);
+}
+
+body .human {
+  background-image: url("../assets/page-3/human.svg");
+  background-size: cover;
+  position: absolute;
+  width: 23.5vh;
+  height: 59vh;
+  -webkit-transform: translate(180%, 65%);
+          transform: translate(180%, 65%);
+  z-index: 999;
 }
 /*# sourceMappingURL=main.css.map */

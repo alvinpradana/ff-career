@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    // Desktop 1
+    // page 1
 
     .logo {
         position: absolute;
@@ -21,7 +21,7 @@ body {
         height: 100%;
         left: 0;
         top: 0;
-        background-image: url('../assets/logo2.svg');
+        background-image: url('../assets/logo.svg');
         background-size: cover;
     }
     
@@ -42,7 +42,7 @@ body {
 
             .bird {
                 position: absolute;
-                background-image: url("../assets/desktop-1/bird.png");
+                background-image: url("../assets/page-1/bird.png");
                 background-size: auto;
                 top: 19vh;
                 right: -20vh;
@@ -91,10 +91,10 @@ body {
         z-index: 999;
     }
 
-    // Desktop 2
+    // page 2
 
     .cloud-1 {
-        background-image: url("../assets/desktop-2/cloud-1.svg");
+        background-image: url("../assets/page-2/cloud-1.svg");
         background-size: cover;
         position: absolute;
         width: 77vh;
@@ -105,7 +105,7 @@ body {
 
     .cloud-2 {
         position: absolute;
-        background-image: url("../assets/desktop-2/cloud-2.svg");
+        background-image: url("../assets/page-2/cloud-2.svg");
         background-size: cover;
         width: 73vh;
         height: 38vh;
@@ -115,7 +115,7 @@ body {
 
     .land {
         position: absolute;
-        background-image: url("../assets/desktop-2/land.svg");
+        background-image: url("../assets/page-2/land.svg");
         background-size: cover;
         bottom: 0;
         left: 0;
@@ -125,7 +125,7 @@ body {
 
     .fence {
         position: absolute;
-        background-image: url("../assets/desktop-2/fence.svg");
+        background-image: url("../assets/page-2/fence.svg");
         background-size: cover;
         width: 100%;
         height: 30vh;
@@ -135,7 +135,7 @@ body {
 
     .farm {
         position: absolute;
-        background-image: url("../assets/desktop-2/farm.svg");
+        background-image: url("../assets/page-2/farm.svg");
         background-size: cover;
         width: 100%;
         height: 63vh;
@@ -145,7 +145,7 @@ body {
 
     .cow-1 {
         position: absolute;
-        background-image: url("../assets/desktop-2/cow-1.svg");
+        background-image: url("../assets/page-2/cow-1.svg");
         background-size: cover;
         width: 14vh;
         height: 10vh;
@@ -162,14 +162,14 @@ body {
 
         .cow-2 {
             position: absolute;
-            background-image: url("../assets/desktop-2/cow-2.png");
+            background-image: url("../assets/page-2/cow-2.png");
             background-size: auto;
             left: -127vh;
         }
 
         .cow-3 {
             position: absolute;
-            background-image: url("../assets/desktop-2/cow-2.png");
+            background-image: url("../assets/page-2/cow-2.png");
             background-size: auto;
             transform: scaleX(-1);
             right: -127vh;
@@ -179,7 +179,7 @@ body {
 
     .board {
         position: absolute;
-        background-image: url("../assets/desktop-2/board.svg");
+        background-image: url("../assets/page-2/board.svg");
         background-size: cover;
         width: 71.5vh;
         height: 76vh;
@@ -210,5 +210,48 @@ body {
             top: 18vh;
             left: 6vh;
         }
+    }
+
+    .board-2 {
+        background-image: url("../assets/page-3/board.svg");
+        background-size: cover;
+        position: absolute;
+        width: 71.3vh;
+        height: 51vh;
+        transform: translate(80%, 55%);
+        z-index: 999;
+
+        .title {
+            font-family: 'Inter', sans-serif;
+            position: absolute;
+            font-style: normal;
+            font-size: 2.6vw;
+            line-height: 5.2vh;
+            text-align: center;
+            font-weight: 600;
+            color: #0451A4;
+            transform: translate(23%, 150%);
+        }
+
+        .subtitle {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8vw;
+            line-height: 3.6vh;
+            text-align: center;
+            color: #000;
+            transform: translate(5%, 270%);
+        }
+    }
+
+    .human {
+        background-image: url("../assets/page-3/human.svg");
+        background-size: cover;
+        position: absolute;
+        width: 23.5vh;
+        height: 59vh;
+        transform: translate(180%, 65%);
+        z-index: 999;
     }
 }
