@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Brevia Medium";
+  src: url("../font/Brevia-Medium.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -243,8 +248,8 @@ body .board-2 .title {
   text-align: center;
   font-weight: 600;
   color: #0451A4;
-  -webkit-transform: translate(23%, 150%);
-          transform: translate(23%, 150%);
+  -webkit-transform: translate(23%, 135%);
+          transform: translate(23%, 135%);
 }
 
 body .board-2 .subtitle {
@@ -255,8 +260,8 @@ body .board-2 .subtitle {
   line-height: 3.6vh;
   text-align: center;
   color: #000;
-  -webkit-transform: translate(5%, 270%);
-          transform: translate(5%, 270%);
+  -webkit-transform: translate(5%, 250%);
+          transform: translate(5%, 250%);
 }
 
 body .human {
@@ -265,8 +270,98 @@ body .human {
   position: absolute;
   width: 23.5vh;
   height: 59vh;
-  -webkit-transform: translate(180%, 65%);
-          transform: translate(180%, 65%);
+  -webkit-transform: translate(183%, 66%);
+          transform: translate(183%, 66%);
   z-index: 999;
+}
+
+body .board-3 {
+  background-image: url("../assets/page-3/board.svg");
+  background-size: cover;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 71.3vh;
+  height: 51vh;
+  -webkit-transform: translate(80%, 55%);
+          transform: translate(80%, 55%);
+  z-index: 999;
+}
+
+body .board-3 .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8vw;
+  line-height: 3.6vh;
+  text-align: center;
+  color: #000;
+  -webkit-transform: translate(6%, 65%);
+          transform: translate(6%, 65%);
+}
+
+body .board-3 .btn-login {
+  font-family: 'Brevia Medium', sans-serif;
+  background-color: #0094D9;
+  border-radius: 50px;
+  border-style: none;
+  padding: .8rem 3rem;
+  color: #fff;
+  -webkit-transform: translate(15%, 300%);
+          transform: translate(15%, 300%);
+  font-size: 1.6vw;
+  z-index: 999;
+}
+
+body .board-3 .btn-login:hover {
+  cursor: pointer;
+}
+
+body .farm-2 {
+  position: absolute;
+  background-image: url("../assets/page-5/farm.svg");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+  bottom: 16vh;
+}
+
+body .row-cow {
+  position: relative;
+  max-width: 100%;
+  max-height: 10%;
+  bottom: -65vh;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+body .row-cow .single-cow {
+  position: absolute;
+  background-image: url("../assets/page-2/cow-2.png");
+  background-size: auto;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  left: -12vh;
+  top: -28vh;
+}
+
+body .human-2 {
+  position: absolute;
+  background-image: url("../assets/page-5/human.svg");
+  background-size: cover;
+  width: 25vh;
+  height: 57vh;
+  z-index: 999;
+  bottom: 2.5vh;
+  left: 3vh;
 }
 /*# sourceMappingURL=main.css.map */

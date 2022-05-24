@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FF - Career</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cloud-1"></div>
+    <div class="cloud-2"></div>
+    <div class="land"></div>
+    <div class="fence"></div>
+    <div class="farm"></div>
+    <div class="cow-1"></div>
+    <div class="row">
+        <div class="cow-2" id="first-cow"></div>
+        <div class="cow-3" id="second-cow"></div>
+    </div>
+    <div class="board-2">
+        <div class="title">Curious on your possible<br>
+            next development?
+        </div>
+        <div class="subtitle">You are on the right place! Follow me to
+            <br>
+            help you gain insight about your future
+            <br>
+            career journey in Finance
+        </div>
+    </div>
+    <div class="human"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.sprite-animator.min.js"></script>
+    <script>
+        var firstCow = $('.row #first-cow');
+        var spriteAnimator = firstCow.spriteAnimator({
+            cols: 4,
+            rows: 1
+        }).play({
+            script: 'all',
+            run: -1,
+            delay: 200
+        });
+
+        var secondCow = $('.row #second-cow');
+        var spriteAnimator = secondCow.spriteAnimator({
+            cols: 4,
+            rows: 1
+        }).play({
+            script: 'all',
+            run: -1,
+            delay: 200
+        });
+    </script>
+</body>
+
+</html>

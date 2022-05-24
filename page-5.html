@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FF - Career</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="land"></div>
+    <div class="fence"></div>
+    <div class="farm-2"></div>
+    <div class="row-cow">
+        <div class="single-cow" id="cow"></div>
+    </div>
+    <div class="human-2"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.sprite-animator.min.js"></script>
+    <script>
+        var cow = $('.row-cow #cow');
+        var spriteAnimator = cow.spriteAnimator({
+            cols: 4,
+            rows: 1
+        }).play({
+            script: 'all',
+            run: -1,
+            delay: 200
+        });
+    </script>
+</body>
+
+</html>
