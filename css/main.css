@@ -54,32 +54,14 @@ body .text-center .content {
 
 body .text-center .content .bird {
   position: absolute;
-  z-index: 999;
-  width: 300px;
-  height: 150px;
-  margin: 2em auto;
-  background: transparent url("../assets/desktop-1/bird-css.png") no-repeat 0 0%;
-  background-size: 100%;
-  -webkit-animation: sprite 2.5s steps(179) infinite;
-          animation: sprite 2.5s steps(179) infinite;
-}
-
-@-webkit-keyframes sprite {
-  from {
-    background-position: 0 0%;
-  }
-  to {
-    background-position: 0 100%;
-  }
-}
-
-@keyframes sprite {
-  from {
-    background-position: 0 0%;
-  }
-  to {
-    background-position: 0 100%;
-  }
+  background-image: url("../assets/desktop-1/bird.png");
+  background-size: auto;
+  top: 19vh;
+  right: -20vh;
+  max-width: 30vw;
+  max-height: 30vw;
+  width: 100%;
+  height: 100%;
 }
 
 body h1 {
@@ -88,7 +70,7 @@ body h1 {
   font-weight: 800;
   color: #0451A4;
   font-size: 6vw;
-  line-height: 0.8em;
+  line-height: 1em;
   text-align: center;
   z-index: 999;
 }
@@ -96,9 +78,10 @@ body h1 {
 body h2 {
   font-family: 'Allan', sans-serif;
   font-weight: 400;
-  color: #1B2D8B;
+  color: #fff;
   font-size: 3vw;
-  margin-top: 40px;
+  margin-top: 13vh;
+  margin-bottom: 2vh;
   text-align: center;
 }
 
@@ -116,5 +99,127 @@ body .arrow {
   height: auto;
   background-size: cover;
   z-index: 999;
+}
+
+body .cloud-1 {
+  background-image: url("../assets/desktop-2/cloud-1.svg");
+  background-size: cover;
+  position: absolute;
+  width: 77vh;
+  height: 38vh;
+  top: 0;
+  left: 0;
+}
+
+body .cloud-2 {
+  position: absolute;
+  background-image: url("../assets/desktop-2/cloud-2.svg");
+  background-size: cover;
+  width: 73vh;
+  height: 38vh;
+  top: 0;
+  right: 0;
+}
+
+body .land {
+  position: absolute;
+  background-image: url("../assets/desktop-2/land.svg");
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25vh;
+}
+
+body .fence {
+  position: absolute;
+  background-image: url("../assets/desktop-2/fence.svg");
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  bottom: 5vh;
+  z-index: 999;
+}
+
+body .farm {
+  position: absolute;
+  background-image: url("../assets/desktop-2/farm.svg");
+  background-size: cover;
+  width: 100%;
+  height: 63vh;
+  z-index: -1;
+  bottom: 16vh;
+}
+
+body .cow-1 {
+  position: absolute;
+  background-image: url("../assets/desktop-2/cow-1.svg");
+  background-size: cover;
+  width: 14vh;
+  height: 10vh;
+  left: 0;
+  bottom: 32vh;
+}
+
+body .row {
+  position: relative;
+  max-width: 100%;
+  max-height: 10%;
+  bottom: -65vh;
+  -webkit-transform: scale(0.35);
+          transform: scale(0.35);
+}
+
+body .row .cow-2 {
+  position: absolute;
+  background-image: url("../assets/desktop-2/cow-2.png");
+  background-size: auto;
+  left: -127vh;
+}
+
+body .row .cow-3 {
+  position: absolute;
+  background-image: url("../assets/desktop-2/cow-2.png");
+  background-size: auto;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  right: -127vh;
+  top: -22vh;
+}
+
+body .board {
+  position: absolute;
+  background-image: url("../assets/desktop-2/board.svg");
+  background-size: cover;
+  width: 71.5vh;
+  height: 76vh;
+  -webkit-transform: translate(80%, -20%);
+          transform: translate(80%, -20%);
+  top: 35vh;
+  z-index: 999;
+}
+
+body .board .title {
+  font-family: 'Alfa Slab One', cursive;
+  position: absolute;
+  color: #693514;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  top: 8vh;
+  left: 16vh;
+}
+
+body .board .subtitle {
+  font-family: 'Alegreya', serif;
+  color: #693514;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8vw;
+  line-height: 7vh;
+  text-align: center;
+  top: 18vh;
+  left: 6vh;
 }
 /*# sourceMappingURL=main.css.map */
