@@ -777,4 +777,55 @@ body .card-row-department .card-department img {
       -ms-flex-align: center;
           align-items: center;
 }
+
+body .subtitle-certifications {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.6vw;
+  text-align: center;
+  color: #0063B1;
+  position: relative;
+  top: -3vh;
+}
+
+body .card-certifications {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+}
+
+body .card-certifications .card-btn-certifications {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Inter', cursive;
+  text-transform: uppercase;
+  font-size: 1.4vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30vh;
+  height: 8vh;
+  background: #0094D9;
+  padding: .2rem .4rem;
+  margin: .8rem .4rem;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  border-radius: 5vh;
+}
+
+body .card-certifications .card-btn-certifications:hover {
+  background: #0170A4;
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
