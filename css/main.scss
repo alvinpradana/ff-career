@@ -697,4 +697,43 @@ body {
             }
         }
     }
+
+    // Page 14
+
+    .card-experience {
+        position: absolute;
+        width: 108vh;
+        height: 90vh;
+        background: #fff;
+        box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.25);
+        border-radius: 4.6vh;
+        transform: translate(30%, 6%);
+
+        .title-experience {
+            font-family: 'Baloo Da 2', cursive !important;
+            position: relative;
+            top: 8vh;
+            font-weight: 800;
+            font-size: 2.6vw;
+            line-height: 5.5vh;
+            text-align: center;
+            color: #0063B1;
+        }
+
+        .card-role-position {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .subtitle-experience {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 1.6vw;
+            text-align: center;
+            color: #0063B1;
+            position: relative;
+            top: 9vh;
+        }
+    }
 }

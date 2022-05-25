@@ -828,4 +828,48 @@ body .card-certifications .card-btn-certifications:hover {
   background: #0170A4;
   cursor: pointer;
 }
+
+body .card-experience {
+  position: absolute;
+  width: 108vh;
+  height: 90vh;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4.6vh;
+  -webkit-transform: translate(30%, 6%);
+          transform: translate(30%, 6%);
+}
+
+body .card-experience .title-experience {
+  font-family: 'Baloo Da 2', cursive !important;
+  position: relative;
+  top: 8vh;
+  font-weight: 800;
+  font-size: 2.6vw;
+  line-height: 5.5vh;
+  text-align: center;
+  color: #0063B1;
+}
+
+body .card-experience .card-role-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .card-experience .subtitle-experience {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.6vw;
+  text-align: center;
+  color: #0063B1;
+  position: relative;
+  top: 9vh;
+}
 /*# sourceMappingURL=main.css.map */
