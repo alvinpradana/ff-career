@@ -491,7 +491,7 @@ body .card-row .card h3 {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 1.6vw;
-  color: #0063B1;
+  color: #0170A4;
   text-transform: uppercase;
   text-align: center;
 }
@@ -545,8 +545,9 @@ body .card-role .title-role {
   top: -4vh;
   font-weight: 800;
   font-size: 2.6vw;
+  line-height: 5.5vh;
   text-align: center;
-  color: #0063B1;
+  color: #0170A4;
 }
 
 body .card-role .card-role-position {
@@ -575,7 +576,7 @@ body .card-role .card-role-position .card-btn {
           align-items: center;
   width: 40vh;
   height: auto;
-  background: #0089C9;
+  background: #0094D9;
   padding: .8rem 0;
   margin: 1.2rem 2.5rem;
   color: #FFFFFF;
@@ -583,7 +584,197 @@ body .card-role .card-role-position .card-btn {
 }
 
 body .card-role .card-role-position .card-btn:hover {
-  background: #0063B1;
+  background: #0170A4;
   cursor: pointer;
+}
+
+body .role-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4vh;
+}
+
+body .role-button .card-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Brevia Medium';
+  font-weight: 500;
+  font-size: 1.8vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40vh;
+  height: auto;
+  background: #0094D9;
+  padding: .8rem 0;
+  color: #FFFFFF;
+  border-radius: 5vh;
+}
+
+body .role-button .card-btn:hover {
+  background: #0170A4;
+  cursor: pointer;
+}
+
+body .role-button .card-btn-danger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Brevia Medium';
+  font-weight: 500;
+  font-size: 1.8vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40vh;
+  height: auto;
+  background: #E93737;
+  padding: .8rem 0;
+  color: #FFFFFF;
+  border-radius: 5vh;
+}
+
+body .role-button .card-btn-danger:hover {
+  background: #c92f2f;
+  cursor: pointer;
+}
+
+body .card-btn-department {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.4vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 40vh;
+  height: 8vh;
+  background: #0094D9;
+  padding: .8rem 0;
+  color: #FFFFFF;
+  border-radius: 5vh;
+  padding: .3rem;
+  margin: .8rem 2rem;
+}
+
+body .card-btn-department:hover {
+  cursor: pointer;
+}
+
+body .board-10 {
+  position: relative;
+  -webkit-transform: translate(12.5%, 30%);
+          transform: translate(12.5%, 30%);
+  width: 138vh;
+  height: 13vh;
+  font-family: 'Baloo Da 2', cursive !important;
+  font-weight: 800;
+  color: #0063B1;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 15vh;
+  margin-bottom: 4vh;
+}
+
+body .card-row-department {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  -webkit-transform: translate(3%, 20%);
+          transform: translate(3%, 20%);
+}
+
+body .card-row-department .card-department {
+  background-color: #fff;
+  border-radius: 2.8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 28vh;
+  height: 23vh;
+  margin: .6rem;
+  padding: .2rem;
+  border: 1px solid #0A4EA2;
+}
+
+body .card-row-department .card-department:hover {
+  cursor: pointer;
+  border-style: none;
+}
+
+body .card-row-department .card-department h3 {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.6vw;
+  color: #0170A4;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body .card-row-department .card-department img {
+  max-width: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

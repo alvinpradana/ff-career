@@ -443,7 +443,7 @@ body {
                 font-family: 'Inter';
                 font-weight: 400;
                 font-size: 1.6vw;
-                color: #0063B1;
+                color: #0170A4;
                 text-transform: uppercase;
                 text-align: center;
             }
@@ -486,8 +486,9 @@ body {
             top: -4vh;
             font-weight: 800;
             font-size: 2.6vw;
+            line-height: 5.5vh;
             text-align: center;
-            color: #0063B1;
+            color: #0170A4;
         }
 
         .card-role-position {
@@ -504,16 +505,153 @@ body {
                 align-items: center;
                 width: 40vh;
                 height: auto;
-                background: #0089C9;
+                background: #0094D9;
                 padding: .8rem 0;
                 margin: 1.2rem 2.5rem;
                 color: #FFFFFF;
                 border-radius: 5vh;
 
                 &:hover {
-                    background: #0063B1;
+                    background: #0170A4;
                     cursor: pointer;
                 }
+            }
+        }
+    }
+
+    // Page 8
+
+    .role-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4vh;
+
+        .card-btn {
+            display: flex;
+            font-family: 'Brevia Medium';
+            font-weight: 500;
+            font-size: 1.8vw;
+            justify-content: center;
+            align-items: center;
+            width: 40vh;
+            height: auto;
+            background: #0094D9;
+            padding: .8rem 0;
+            color: #FFFFFF;
+            border-radius: 5vh;
+
+            &:hover {
+                background: #0170A4;
+                cursor: pointer;
+            }
+        }
+
+        .card-btn-danger {
+            display: flex;
+            font-family: 'Brevia Medium';
+            font-weight: 500;
+            font-size: 1.8vw;
+            justify-content: center;
+            align-items: center;
+            width: 40vh;
+            height: auto;
+            background: #E93737;
+            padding: .8rem 0;
+            color: #FFFFFF;
+            border-radius: 5vh;
+
+            &:hover {
+                background: #c92f2f;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .card-btn-department {
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 1.4vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 40vh;
+        height: 8vh;
+        background: #0094D9;
+        padding: .8rem 0;
+        color: #FFFFFF;
+        border-radius: 5vh;
+        padding: .3rem;
+        margin: .8rem 2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    // Page 10
+
+    .board-10 {
+        position: relative;
+        transform: translate(12.5%, 30%);
+        width: 138vh;
+        height: 13vh;
+        font-family: 'Baloo Da 2', cursive !important;
+        font-weight: 800;
+        color: #0063B1;
+        font-style: normal;
+        text-align: center;
+        font-size: 2.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 15vh;
+        margin-bottom: 4vh;
+    }
+
+    .card-row-department {
+        display: flex;
+        max-width: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        transform: translate(3%, 20%);
+
+        .card-department {
+            background-color: #fff;
+            border-radius: 2.8vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 28vh;
+            height: 23vh;
+            margin: .6rem;
+            padding: .2rem;
+            border: 1px solid #0A4EA2;
+
+            &:hover {
+                cursor: pointer;
+                border-style: none;
+            }
+
+            h3 {
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 1.6vw;
+                color: #0170A4;
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            img {
+                max-width: 20vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
     }
