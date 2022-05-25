@@ -461,7 +461,7 @@ body .card-row {
 
 body .card-row .card {
   background-color: #fff;
-  border-radius: 29px;
+  border-radius: 2.8vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,17 +478,26 @@ body .card-row .card {
   width: 29vh;
   height: 23vh;
   margin: 1.3rem;
+  padding: .2rem;
   border: 1px solid #0A4EA2;
 }
 
+body .card-row .card:hover {
+  cursor: pointer;
+  border-style: none;
+}
+
 body .card-row .card h3 {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.6vw;
   color: #0063B1;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-align: center;
 }
 
 body .card-row .card img {
-  max-width: 16vh;
+  max-width: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -498,5 +507,83 @@ body .card-row .card img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .card-role {
+  position: absolute;
+  width: 108vh;
+  height: 68vh;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4.6vh;
+  -webkit-transform: translate(30%, 28%);
+          transform: translate(30%, 28%);
+}
+
+body .card-role .logo-role {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: -3vh;
+}
+
+body .card-role .logo-role .logo-1 {
+  margin: 2.3rem;
+}
+
+body .card-role .title-role {
+  font-family: 'Baloo Da 2', cursive !important;
+  position: relative;
+  top: -4vh;
+  font-weight: 800;
+  font-size: 2.6vw;
+  text-align: center;
+  color: #0063B1;
+}
+
+body .card-role .card-role-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .card-role .card-role-position .card-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Brevia Medium';
+  font-weight: 500;
+  font-size: 1.8vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40vh;
+  height: auto;
+  background: #0089C9;
+  padding: .8rem 0;
+  margin: 1.2rem 2.5rem;
+  color: #FFFFFF;
+  border-radius: 5vh;
+}
+
+body .card-role .card-role-position .card-btn:hover {
+  background: #0063B1;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

@@ -423,7 +423,7 @@ body {
 
         .card {
             background-color: #fff;
-            border-radius: 29px;
+            border-radius: 2.8vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -431,19 +431,89 @@ body {
             width: 29vh;
             height: 23vh;
             margin: 1.3rem;
+            padding: .2rem;
             border: 1px solid #0A4EA2;
 
+            &:hover {
+                cursor: pointer;
+                border-style: none;
+            }
+
             h3 {
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 1.6vw;
                 color: #0063B1;
-                text-transform: capitalize;
+                text-transform: uppercase;
                 text-align: center;
             }
 
             img {
-                max-width: 16vh;
+                max-width: 20vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+        }
+    }
+
+    // Page 7
+
+    .card-role {
+        position: absolute;
+        width: 108vh;
+        height: 68vh;
+        background: #fff;
+        box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.25);
+        border-radius: 4.6vh;
+        transform: translate(30%, 28%);
+
+        .logo-role {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            top: -3vh;
+
+            .logo-1 {
+                margin: 2.3rem;
+            }
+        }
+
+        .title-role {
+            font-family: 'Baloo Da 2', cursive !important;
+            position: relative;
+            top: -4vh;
+            font-weight: 800;
+            font-size: 2.6vw;
+            text-align: center;
+            color: #0063B1;
+        }
+
+        .card-role-position {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .card-btn {
+                display: flex;
+                font-family: 'Brevia Medium';
+                font-weight: 500;
+                font-size: 1.8vw;
+                justify-content: center;
+                align-items: center;
+                width: 40vh;
+                height: auto;
+                background: #0089C9;
+                padding: .8rem 0;
+                margin: 1.2rem 2.5rem;
+                color: #FFFFFF;
+                border-radius: 5vh;
+
+                &:hover {
+                    background: #0063B1;
+                    cursor: pointer;
+                }
             }
         }
     }
