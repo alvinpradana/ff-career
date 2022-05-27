@@ -932,4 +932,111 @@ body {
             }
         }
     }
+
+    // Page 17
+
+
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.46);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999999;
+        
+        img {
+            width: 16vh;
+            height: 16vh;
+
+        }
+    }
+
+    .big-board {
+        position: absolute;
+        background-image: url("../assets/page-17/board.svg");
+        background-size: cover;
+        width: 142vh;
+        height: 95vh;
+        transform: translate(12%, 0);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 2rem;
+
+        .title-board {
+            position: absolute;
+            font-family: 'Alfa Slab One', cursive !important;
+            font-weight: 400;
+            font-size: 2.8vw;
+            color: #633213;
+            top: 5vh;
+        }
+
+        .department-board {
+            position: absolute;
+            display: flex;
+            top: 12vh;
+            max-width: 90%;
+
+            .department-item {
+                max-width: 17vh;
+                max-height: 8.5vh;
+                padding: .3rem;
+                
+                .department-head {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #F92B58;
+                    border-radius: 20px;
+                    margin: .3rem;
+
+                    .head-title {
+                        font-family: 'Asap', sans-serif !important;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 16px;
+                        color: #FFFFFF;
+                        padding: .3rem;
+                    }
+                }
+    
+                .department-role {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #0094D9;
+                    border-radius: 20px;
+                    margin: .3rem;
+    
+                    .role-title {
+                        font-family: 'Asap', sans-serif !important;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 16px;
+                        color: #FFFFFF;
+                        padding: .3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .human-17 {
+        position: absolute;
+        background-image: url("../assets/page-6/human.svg");
+        background-size: cover;
+        width: 25vh;
+        height: 57vh;
+        z-index: 999;
+        bottom: .5vh;
+        left: 7vh;
+    }
 }

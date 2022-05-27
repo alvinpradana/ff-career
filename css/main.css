@@ -1126,4 +1126,135 @@ body .bulb-message .head-title .big-title {
   letter-spacing: 0.015em;
   color: #0063B1;
 }
+
+body .loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.46);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 999999;
+}
+
+body .loader img {
+  width: 16vh;
+  height: 16vh;
+}
+
+body .big-board {
+  position: absolute;
+  background-image: url("../assets/page-17/board.svg");
+  background-size: cover;
+  width: 142vh;
+  height: 95vh;
+  -webkit-transform: translate(12%, 0);
+          transform: translate(12%, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 2rem;
+}
+
+body .big-board .title-board {
+  position: absolute;
+  font-family: 'Alfa Slab One', cursive !important;
+  font-weight: 400;
+  font-size: 2.8vw;
+  color: #633213;
+  top: 5vh;
+}
+
+body .big-board .department-board {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 12vh;
+  max-width: 90%;
+}
+
+body .big-board .department-board .department-item {
+  max-width: 17vh;
+  max-height: 8.5vh;
+  padding: .3rem;
+}
+
+body .big-board .department-board .department-item .department-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #F92B58;
+  border-radius: 20px;
+  margin: .3rem;
+}
+
+body .big-board .department-board .department-item .department-head .head-title {
+  font-family: 'Asap', sans-serif !important;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: .3rem;
+}
+
+body .big-board .department-board .department-item .department-role {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #0094D9;
+  border-radius: 20px;
+  margin: .3rem;
+}
+
+body .big-board .department-board .department-item .department-role .role-title {
+  font-family: 'Asap', sans-serif !important;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: .3rem;
+}
+
+body .human-17 {
+  position: absolute;
+  background-image: url("../assets/page-6/human.svg");
+  background-size: cover;
+  width: 25vh;
+  height: 57vh;
+  z-index: 999;
+  bottom: .5vh;
+  left: 7vh;
+}
 /*# sourceMappingURL=main.css.map */
