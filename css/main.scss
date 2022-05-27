@@ -784,4 +784,88 @@ body {
             }
         }
     }
+
+    // Page 15
+
+    .board-finance {
+        background-image: url("../assets/page-6/board.svg");
+        background-size: cover;
+        position: absolute;
+        transform: translate(12.5%, 80%);
+        width: 138vh;
+        height: 13vh;
+        z-index: 999;
+        font-family: 'Alfa Slab One', cursive;
+        color: #693514;
+        font-style: normal;
+        text-align: center;
+        font-size: 2.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-row-finance {
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        transform: translate(0, 100%);
+
+        .card-finance {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 26vh;
+            height: auto;
+            margin: 0 .5rem;
+            gap: 1.3rem;
+
+            .card-primary {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+                width: 100%;
+                height: 18vh;
+                border-radius: 3vh;
+                border: 1px solid #0A4EA2;
+
+                h3 {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 1.6vw;
+                    color: #0063B1;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+            }
+
+            .card-secondary {
+                background-color: #0094D9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                height: 11vh;
+                border: 1px solid #0A4EA2;
+                border-radius: 3vh;
+                overflow: hidden;
+
+                h3 {
+                    font-family: 'Inter', sans-serif;
+                    color: #FFFFFF;
+                    font-weight: 400;
+                    font-size: 1.4vw;
+                    text-align: center;
+                    text-transform: capitalize;
+                    padding: 1.2rem;
+                }
+            }
+        }
+    }
 }

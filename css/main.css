@@ -929,4 +929,128 @@ body .card-experience .department .panel-role .button-role:hover {
 body .card-experience .department .panel-role .button-role:focus {
   background-color: #4BB156;
 }
+
+body .board-finance {
+  background-image: url("../assets/page-6/board.svg");
+  background-size: cover;
+  position: absolute;
+  -webkit-transform: translate(12.5%, 80%);
+          transform: translate(12.5%, 80%);
+  width: 138vh;
+  height: 13vh;
+  z-index: 999;
+  font-family: 'Alfa Slab One', cursive;
+  color: #693514;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .card-row-finance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(0, 100%);
+          transform: translate(0, 100%);
+}
+
+body .card-row-finance .card-finance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 26vh;
+  height: auto;
+  margin: 0 .5rem;
+  gap: 1.3rem;
+}
+
+body .card-row-finance .card-finance .card-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 18vh;
+  border-radius: 3vh;
+  border: 1px solid #0A4EA2;
+}
+
+body .card-row-finance .card-finance .card-primary h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.6vw;
+  color: #0063B1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body .card-row-finance .card-finance .card-secondary {
+  background-color: #0094D9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 11vh;
+  border: 1px solid #0A4EA2;
+  border-radius: 3vh;
+  overflow: hidden;
+}
+
+body .card-row-finance .card-finance .card-secondary h3 {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.4vw;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1.2rem;
+}
 /*# sourceMappingURL=main.css.map */
