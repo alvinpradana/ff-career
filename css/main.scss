@@ -720,12 +720,6 @@ body {
             color: #0063B1;
         }
 
-        .card-role-position {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
         .subtitle-experience {
             font-family: 'Inter', sans-serif;
             font-weight: 400;
@@ -734,6 +728,60 @@ body {
             color: #0063B1;
             position: relative;
             top: 9vh;
+        }
+
+        .department {
+            max-width: 80vh;
+            position: relative;
+
+            .title-department {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transform: translate(20%, 250%);
+                border-bottom: 1px solid #000000;
+                padding: 0 0 .5rem 0;
+                margin-top: 1.5rem;
+                cursor: pointer;
+                
+                h1 {
+                    font-family: 'Baloo Da 2', cursive !important;
+                    color: #000000;
+                    font-size: 2.6vw;
+                }
+            }
+
+            .panel-role {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                transform: translate(18%, 50%);
+                transition: all 3s;
+
+                .button-role {
+                    // padding: 13px 30px;
+                    width: 296px;
+                    height: 53px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                    font-size: 1.8vw;
+                    background-color: #0094D9;
+                    color: #FFFFFF;
+                    border-radius: 50px;
+                    margin-bottom: 1rem;
+                    border: none;
+
+                    &:hover {
+                        background-color: #4BB156;
+                        transition: all .3s;
+                        cursor: pointer;
+                    }
+
+                    &:focus {
+                        background-color: #4BB156;
+                    }
+                }
+            }
         }
     }
 }

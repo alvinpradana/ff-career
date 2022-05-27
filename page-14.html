@@ -24,7 +24,45 @@
         <div class="subtitle-experience">
             consider all your experiences
         </div>
+        <div class="department">
+            <div class="title-department">
+                <h1>Tax Finance</h1>
+                <span><img src="./assets/page-14/polygon.svg" alt="Polygon"></span>
+            </div>
+            <div class="panel-role">
+                <button class="button-role">Senior Tax Manager</button>
+                <button class="button-role">Tax Manager</button>
+                <button class="button-role">Junior Tax Manager</button>
+                <button class="button-role">Assistant Tax Manager</button>
+            </div>
+            <div class="title-department">
+                <h1>Audit</h1>
+                <span><img src="./assets/page-14/polygon.svg" alt="Polygon"></span>
+            </div>
+            <div class="title-department">
+                <h1>Customer Finance</h1>
+                <span><img src="./assets/page-14/polygon.svg" alt="Polygon"></span>
+            </div>
+        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            var acc = $(".title-department")
+            var i;
+
+            for (i =0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "flex") {
+                        panel.style.display = "none"
+                    } else {
+                        panel.style.display = "flex"
+                    }
+                })
+            }
+        </script>
 </body>
 
 </html>
