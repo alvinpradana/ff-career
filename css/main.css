@@ -1053,4 +1053,77 @@ body .card-row-finance .card-finance .card-secondary h3 {
   text-transform: capitalize;
   padding: 1.2rem;
 }
+
+body .human-16 {
+  position: absolute;
+  background-image: url("../assets/page-6/human.svg");
+  background-size: cover;
+  width: 25vh;
+  height: 57vh;
+  z-index: 999;
+  bottom: 1.5vh;
+  left: 35vh;
+}
+
+body .opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+body .bulb-message {
+  position: absolute;
+  -webkit-transform: translate(77%, 10%);
+          transform: translate(77%, 10%);
+}
+
+body .bulb-message img {
+  width: 65vh;
+  height: auto;
+}
+
+body .bulb-message .head-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(0, -180%);
+          transform: translate(0, -180%);
+}
+
+body .bulb-message .head-title .small-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2.3vw;
+  letter-spacing: .12em;
+  color: #0063B1;
+  text-transform: lowercase;
+}
+
+body .bulb-message .head-title .small-title-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2.3vw;
+  letter-spacing: -0.05em;
+  color: #0063B1;
+  text-transform: lowercase;
+}
+
+body .bulb-message .head-title .big-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 4.8vw;
+  letter-spacing: 0.015em;
+  color: #0063B1;
+}
 /*# sourceMappingURL=main.css.map */
