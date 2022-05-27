@@ -935,7 +935,6 @@ body {
 
     // Page 17
 
-
     .loader {
         position: absolute;
         width: 100%;
@@ -1023,6 +1022,69 @@ body {
                         line-height: 16px;
                         color: #FFFFFF;
                         padding: .3rem;
+                    }
+                }
+
+                .blur {
+                    opacity: 0.3;
+                    // background: rgb(48, 48, 48);
+                }
+            }
+        }
+
+        .footer-board {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            position: absolute;
+            width: 85%;
+            bottom: 7vh;
+
+            .left-footer {
+                position: relative;
+                border-left: .3rem solid #0468BA;
+                padding: 0 .3rem;
+
+                h1, h2 {
+                    font-family: 'Inter', sans-serif;
+                }
+
+                h1 {
+                    font-weight: 400;
+                    text-align: left;
+                    color: #000000;
+                    font-size: .9vw;
+                }
+
+                p {
+                    font-size: .9vw;
+                    font-weight: 700;
+                    color: #0468BA;
+                }
+            }
+
+            .right-footer {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+
+                .share-btn {
+                    img {
+                        width: 4vh;
+                    }
+                }
+
+                .left-arrow {
+                    img {
+                        width: 6vh;
+                    }
+                }
+
+                .right-arrow {
+                    img {
+                        width: 6vh;
                     }
                 }
             }
