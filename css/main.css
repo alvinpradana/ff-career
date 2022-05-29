@@ -1,6 +1,156 @@
 @font-face {
   font-family: "Brevia Medium";
-  src: url("../font/Brevia-Medium.otf");
+  src: url("../font/Brevia/Brevia-Medium.otf");
+}
+
+@font-face {
+  font-family: "Brevia Regular";
+  src: url("../font/Brevia/Brevia-Regular.otf");
+}
+
+@font-face {
+  font-family: "Inter Thin";
+  src: url("../font/Inter/Inter-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Inter Light";
+  src: url("../font/Inter/Inter-Light.ttf");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../font/Inter/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url("../font/Inter/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter Semibold";
+  src: url("../font/Inter/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../font/Inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter Extra Bold";
+  src: url("../font/Inter/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Baloo Da Regular";
+  src: url("../font/BalooDa2/BalooDa2-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Baloo Da Medium";
+  src: url("../font/BalooDa2/BalooDa2-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Baloo Da Semibold";
+  src: url("../font/BalooDa2/BalooDa2-SemiBold.ttf") format(ttf);
+}
+
+@font-face {
+  font-family: "Baloo Da Bold";
+  src: url("../font/BalooDa2/BalooDa2-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Baloo Da Extrabold";
+  src: url("../font/BalooDa2/BalooDa2-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Asap Regular";
+  src: url("../font/Asap/Asap-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Asap Medium";
+  src: url("../font/Asap/Asap-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Asap Semibold";
+  src: url("../font/Asap/Asap-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Asap Bold";
+  src: url("../font/Asap/Asap-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Regular";
+  src: url("../font/Alegreya/Alegreya-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Medium";
+  src: url("../font/Alegreya/Alegreya-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Semibold";
+  src: url("../font/Alegreya/Alegreya-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Bold";
+  src: url("../font/Alegreya/Alegreya-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya Extrabold";
+  src: url("../font/Alegreya/Alegreya-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Alfa Slab One Regular";
+  src: url("../font/AlfaSlabOne/AlfaSlabOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Allan Regular";
+  src: url("../font/Allan/Allan-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Allan Bold";
+  src: url("../font/Allan/Allan-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Assistant Regular";
+  src: url("../font/Assistant/Assistant-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Assistant Medium";
+  src: url("../font/Assistant/Assistant-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Assistant Semibold";
+  src: url("../font/Assistant/Assistant-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Assistant Bold";
+  src: url("../font/Assistant/Assistant-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Assistant Extrabold";
+  src: url("../font/Assistant/Assistant-ExtraBold.ttf");
 }
 
 * {
@@ -240,7 +390,7 @@ body .board-2 {
 }
 
 body .board-2 .title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   position: absolute;
   font-style: normal;
   font-size: 2.6vw;
@@ -253,7 +403,7 @@ body .board-2 .title {
 }
 
 body .board-2 .subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.8vw;
@@ -297,7 +447,7 @@ body .board-3 {
 }
 
 body .board-3 .subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.8vw;
@@ -488,7 +638,7 @@ body .card-row .card:hover {
 }
 
 body .card-row .card h3 {
-  font-family: 'Inter';
+  font-family: 'Inter Regular';
   font-weight: 400;
   font-size: 1.6vw;
   color: #0170A4;
@@ -540,7 +690,7 @@ body .card-role .logo-role .logo-1 {
 }
 
 body .card-role .title-role {
-  font-family: 'Baloo Da 2', cursive !important;
+  font-family: 'Baloo Da Regular', cursive !important;
   position: relative;
   top: -4vh;
   font-weight: 800;
@@ -661,7 +811,7 @@ body .card-btn-department {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 400;
   font-size: 1.4vw;
   -webkit-box-pack: center;
@@ -691,7 +841,7 @@ body .board-10 {
           transform: translate(12.5%, 30%);
   width: 138vh;
   height: 13vh;
-  font-family: 'Baloo Da 2', cursive !important;
+  font-family: 'Baloo Da Regular', cursive !important;
   font-weight: 800;
   color: #0063B1;
   font-style: normal;
@@ -757,7 +907,7 @@ body .card-row-department .card-department:hover {
 }
 
 body .card-row-department .card-department h3 {
-  font-family: 'Inter';
+  font-family: 'Inter Regular';
   font-weight: 400;
   font-size: 1.6vw;
   color: #0170A4;
@@ -779,7 +929,7 @@ body .card-row-department .card-department img {
 }
 
 body .subtitle-certifications {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 400;
   font-size: 1.6vw;
   text-align: center;
@@ -804,7 +954,7 @@ body .card-certifications .card-btn-certifications {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Inter', cursive;
+  font-family: 'Inter Regular', cursive;
   text-transform: uppercase;
   font-size: 1.4vw;
   -webkit-box-pack: center;
@@ -842,7 +992,7 @@ body .card-experience {
 }
 
 body .card-experience .title-experience {
-  font-family: 'Baloo Da 2', cursive !important;
+  font-family: 'Baloo Da Regular', cursive !important;
   position: relative;
   top: 8vh;
   font-weight: 800;
@@ -853,7 +1003,7 @@ body .card-experience .title-experience {
 }
 
 body .card-experience .subtitle-experience {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 400;
   font-size: 1.6vw;
   text-align: center;
@@ -886,7 +1036,7 @@ body .card-experience .department .title-department {
 }
 
 body .card-experience .department .title-department h1 {
-  font-family: 'Baloo Da 2', cursive !important;
+  font-family: 'Baloo Da Regular', cursive !important;
   color: #000000;
   font-size: 2.6vw;
 }
@@ -909,7 +1059,7 @@ body .card-experience .department .panel-role {
 body .card-experience .department .panel-role .button-role {
   width: 296px;
   height: 53px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 400;
   font-size: 1.8vw;
   background-color: #0094D9;
@@ -1014,7 +1164,7 @@ body .card-row-finance .card-finance .card-primary {
 }
 
 body .card-row-finance .card-finance .card-primary h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 600;
   font-size: 1.6vw;
   color: #0063B1;
@@ -1045,7 +1195,7 @@ body .card-row-finance .card-finance .card-secondary {
 }
 
 body .card-row-finance .card-finance .card-secondary h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   color: #FFFFFF;
   font-weight: 400;
   font-size: 1.4vw;
@@ -1102,7 +1252,7 @@ body .bulb-message .head-title {
 }
 
 body .bulb-message .head-title .small-title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 400;
   font-size: 2.3vw;
   letter-spacing: .12em;
@@ -1111,7 +1261,7 @@ body .bulb-message .head-title .small-title {
 }
 
 body .bulb-message .head-title .small-title-2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 400;
   font-size: 2.3vw;
   letter-spacing: -0.05em;
@@ -1120,7 +1270,7 @@ body .bulb-message .head-title .small-title-2 {
 }
 
 body .bulb-message .head-title .big-title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
   font-weight: 800;
   font-size: 4.8vw;
   letter-spacing: 0.015em;
@@ -1172,7 +1322,7 @@ body .big-board {
 
 body .big-board .title-board {
   position: absolute;
-  font-family: 'Alfa Slab One', cursive !important;
+  font-family: 'Alfa Slab One Regular', cursive !important;
   font-weight: 400;
   font-size: 2.8vw;
   color: #633213;
@@ -1212,7 +1362,7 @@ body .big-board .department-board .department-item .department-head {
 }
 
 body .big-board .department-board .department-item .department-head .head-title {
-  font-family: 'Asap', sans-serif !important;
+  font-family: 'Asap Regular', sans-serif !important;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -1239,7 +1389,7 @@ body .big-board .department-board .department-item .department-role {
 }
 
 body .big-board .department-board .department-item .department-role .role-title {
-  font-family: 'Asap', sans-serif !important;
+  font-family: 'Asap Regular', sans-serif !important;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -1273,7 +1423,7 @@ body .big-board .footer-board .left-footer {
 }
 
 body .big-board .footer-board .left-footer h1, body .big-board .footer-board .left-footer h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Regular', sans-serif;
 }
 
 body .big-board .footer-board .left-footer h1 {
