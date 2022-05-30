@@ -1177,7 +1177,6 @@ body {
 
                 .blur {
                     opacity: 0.3;
-                    // background: rgb(48, 48, 48);
                 }
             }
         }
@@ -1250,5 +1249,152 @@ body {
         z-index: 999;
         bottom: .5vh;
         left: 7vh;
+    }
+
+    // Page 18 Grid
+
+    .grid-board {
+        position: relative;
+        background-image: url("../assets/page-17/board.svg");
+        background-size: cover;
+        width: 142vh;
+        height: 95vh;
+        transform: translate(12%, 0);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 2rem;
+
+        .title-grid-board {
+            position: relative;
+            font-family: 'Alfa Slab One Regular', cursive !important;
+            font-weight: 400;
+            font-size: 2.8vw;
+            color: #633213;
+            top: 5vh;
+        }
+
+        .grid-container {
+            position: relative;
+            display: grid;
+            gap: .3em;
+            top: 10vh;
+    
+            div {
+                max-width: 16vh;
+                min-height: 6vh;
+                color: #FFFFFF;
+                border-radius: 2.5vh;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Asap Regular', sans-serif !important;
+                font-size: .85vw;
+                font-weight: 700;
+                line-height: 1.2em;
+                color: #FFFFFF;
+                padding: .3rem;
+                overflow: auto;
+
+                ul {
+                    li:only-child {
+                        list-style: none;
+                    }
+                    
+                    li:not(:only-child){
+                        font-size: .6vw;
+                        list-style: disc;
+                    }
+                    margin: 0 .8rem;
+                }
+            }
+
+            .red {
+                height: auto;
+                background-color: #F92B58;
+            }
+            
+            .blue {
+                height: auto;
+                background-color: #0094D9;
+            }
+
+            .not-flow {
+                height: auto;
+                opacity: .7;
+                background-color: #FFFFFF;
+
+                &:hover {
+                    opacity: 1;
+                    color: #000;
+                    transition: all .5s;
+                }
+            }
+        }
+
+        .footer-board {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            position: absolute;
+            width: 85%;
+            bottom: 7vh;
+
+            .left-footer {
+                position: relative;
+                border-left: .3rem solid #0468BA;
+                padding: 0 .3rem;
+
+                h1, p {
+                    font-family: 'Inter Regular', sans-serif;
+                }
+
+                h1 {
+                    font-weight: 400;
+                    text-align: left;
+                    color: #000000;
+                    font-size: .9vw;
+                }
+
+                p {
+                    font-size: .9vw;
+                    font-weight: 700;
+                    color: #0468BA;
+                }
+            }
+
+            .right-footer {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+
+                .share-btn {
+                    img {
+                        width: 2vw;
+                    }
+                }
+
+                .left-arrow {
+                    img {
+                        width: 3vw;
+                    }
+                }
+
+                .right-arrow {
+                    img {
+                        width: 3vw;
+                    }
+                }
+            }
+        }
+    }
+
+    #svgContainer {
+        z-index: -10;
+        position: absolute;
     }
 }

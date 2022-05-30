@@ -1475,4 +1475,173 @@ body .human-17 {
   bottom: .5vh;
   left: 7vh;
 }
+
+body .grid-board {
+  position: relative;
+  background-image: url("../assets/page-17/board.svg");
+  background-size: cover;
+  width: 142vh;
+  height: 95vh;
+  -webkit-transform: translate(12%, 0);
+          transform: translate(12%, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 2rem;
+}
+
+body .grid-board .title-grid-board {
+  position: relative;
+  font-family: 'Alfa Slab One Regular', cursive !important;
+  font-weight: 400;
+  font-size: 2.8vw;
+  color: #633213;
+  top: 5vh;
+}
+
+body .grid-board .grid-container {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  gap: .3em;
+  top: 10vh;
+}
+
+body .grid-board .grid-container div {
+  max-width: 16vh;
+  min-height: 6vh;
+  color: #FFFFFF;
+  border-radius: 2.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Asap Regular', sans-serif !important;
+  font-size: .85vw;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: #FFFFFF;
+  padding: .3rem;
+  overflow: auto;
+}
+
+body .grid-board .grid-container div ul {
+  margin: 0 .8rem;
+}
+
+body .grid-board .grid-container div ul li:only-child {
+  list-style: none;
+}
+
+body .grid-board .grid-container div ul li:not(:only-child) {
+  font-size: .6vw;
+  list-style: disc;
+}
+
+body .grid-board .grid-container .red {
+  height: auto;
+  background-color: #F92B58;
+}
+
+body .grid-board .grid-container .blue {
+  height: auto;
+  background-color: #0094D9;
+}
+
+body .grid-board .grid-container .not-flow {
+  height: auto;
+  opacity: .7;
+  background-color: #FFFFFF;
+}
+
+body .grid-board .grid-container .not-flow:hover {
+  opacity: 1;
+  color: #000;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body .grid-board .footer-board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  width: 85%;
+  bottom: 7vh;
+}
+
+body .grid-board .footer-board .left-footer {
+  position: relative;
+  border-left: .3rem solid #0468BA;
+  padding: 0 .3rem;
+}
+
+body .grid-board .footer-board .left-footer h1, body .grid-board .footer-board .left-footer p {
+  font-family: 'Inter Regular', sans-serif;
+}
+
+body .grid-board .footer-board .left-footer h1 {
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+  font-size: .9vw;
+}
+
+body .grid-board .footer-board .left-footer p {
+  font-size: .9vw;
+  font-weight: 700;
+  color: #0468BA;
+}
+
+body .grid-board .footer-board .right-footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+body .grid-board .footer-board .right-footer .share-btn img {
+  width: 2vw;
+}
+
+body .grid-board .footer-board .right-footer .left-arrow img {
+  width: 3vw;
+}
+
+body .grid-board .footer-board .right-footer .right-arrow img {
+  width: 3vw;
+}
+
+body #svgContainer {
+  z-index: -10;
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,290 @@
+{
+    "title": "hallo",
+    "col": 7,
+    "row": 9,
+    "elements": [
+        {
+            "title": "Tax Finance",
+            "class_name": "red",
+            "id": "d1",
+            "children": []
+        },
+        {
+            "title": "Internal Audit",
+            "class_name": "red",
+            "id": "d2",
+            "children": []
+        },
+        {
+            "title": "Supply  Chain Finance",
+            "class_name": "red",
+            "id": "d3",
+            "children": []
+        },
+        {
+            "title": "Finance & Accounting",
+            "class_name": "red",
+            "id": "d4",
+            "children": []
+        },
+        {
+            "title": "Planning  & Reporting",
+            "class_name": "red",
+            "id": "d5",
+            "children": []
+        },
+        {
+            "title": "Customer  Finance",
+            "class_name": "red",
+            "id": "d6",
+            "children": []
+        },
+        {
+            "title": "Category  Finance",
+            "class_name": "red",
+            "id": "d7",
+            "children": []
+        },
+        {
+            "title": "1",
+            "class_name": "blue",
+            "id": "p1",
+            "children": [{ "title": "Sr Tax Manager", "id": "1" }]
+        },
+        {
+            "title": "2",
+            "class_name": "blue",
+            "id": "p2",
+            "children": [{ "title": "Sr internal  audit manager", "id": "2" }]
+        },
+        {
+            "title": "Tax Manager",
+            "class_name": "blue",
+            "id": "p3",
+            "children": [{ "title": "Tax Manager", "id": "3" }]
+        },
+        {
+            "title": "Jr Tax Manager",
+            "class_name": "blue",
+            "id": "p4",
+            "children": [{ "title": "Jr Tax Manager", "id": "4" }]
+        },
+        {
+            "title": "Asst Tax  Manager",
+            "class_name": "blue",
+            "id": "p5",
+            "children": [{ "title": "Asst Tax  Manager", "id": "5" }]
+        },
+        {
+            "title": "Internal  Audit Manager",
+            "class_name": "blue",
+            "id": "p7",
+            "children": [{ "title": "Internal  Audit Manager", "id": "7" }]
+        },
+        {
+            "title": "Jr Internal Audit Manager",
+            "class_name": "blue",
+            "id": "p8",
+            "children": [{ "title": "Jr Internal Audit Manager", "id": "8" }]
+        },
+        {
+            "title": "Head Of SCF",
+            "class_name": "blue",
+            "id": "p9",
+            "children": [{ "title": "Head Of SCF", "id": "9" }]
+        },
+        {
+            "title": "Sr SCF Manager",
+            "class_name": "blue",
+            "id": "p10",
+            "children": [{ "title": "Sr SCF Manager", "id": "10" }]
+        },
+        {
+            "title": "SCF Manager",
+            "class_name": "blue",
+            "id": "p11",
+            "children": [{ "title": "SCF Manager", "id": "11" }]
+        },
+        {
+            "title": "Jr SCF Manager",
+            "class_name": "blue",
+            "id": "p12",
+            "children": [{ "title": "Jr SCF Manager", "id": "12" }]
+        },
+        {
+            "title": "Asst SCF  Manager",
+            "class_name": "blue",
+            "id": "p13",
+            "children": [{ "title": "Asst SCF  Manager", "id": "13" }]
+        },
+        {
+            "title": "SCF Costing   Analyst",
+            "class_name": "blue",
+            "id": "p14",
+            "children": [{ "title": "SCF Costing   Analyst", "id": "14" }]
+        },
+        {
+            "title": "Head of F&A P&R",
+            "class_name": "blue",
+            "id": "p15",
+            "children": [{ "title": "Head of F&A P&R", "id": "15" }]
+        },
+        {
+            "title": "Jr Order to  Cash Manager",
+            "class_name": "blue",
+            "id": "p16",
+            "children": [{ "title": "Jr Order to  Cash Manager", "id": "16" }]
+        },
+        {
+            "title": "Asst PTP&PTQ Manager",
+            "class_name": "blue",
+            "id": "p17",
+            "children": [
+                { "title": "Asst PTP&PTQ Manager", "id": "17" },
+                { "title": "Asst DMS Manager", "id": "42" },
+                { "title": "Asst Master Data Manager", "id": "43" },
+                { "title": "Asst Credit Risk Manager", "id": "44" }
+            ]
+        },
+        {
+            "title": "TSC Supervisor",
+            "class_name": "blue",
+            "id": "p18",
+            "children": [
+                { "title": "TSC Supervisor", "id": "18" },
+                { "title": "Billing Supervisor", "id": "45" },
+                { "title": "Expense Claim Supervisor", "id": "46" },
+                { "title": "Fixed Asset Supervisor", "id": "47" }
+            ]
+        },
+        {
+            "title": "Billing officer",
+            "class_name": "blue",
+            "id": "p19",
+            "children": [
+                { "title": "Billing officer", "id": "19" },
+                { "title": "TSC Officer", "id": "36" },
+                { "title": "Expense Claim", "id": "37" },
+                { "title": "Inventory Officer", "id": "38" },
+                { "title": "Credit Control", "id": "39" },
+                { "title": "Officer, AR/AP Officer", "id": "40" },
+                { "title": "Master data Office", "id": "41" }
+            ]
+        },
+        {
+            "title": "RTR  Planning Lead",
+            "class_name": "blue",
+            "id": "p20",
+            "children": [{ "title": "RTR  Planning Lead", "id": "20" }]
+        },
+        {
+            "title": "Overhead controller",
+            "class_name": "blue",
+            "id": "p21",
+            "children": [
+                { "title": "Overhead controller", "id": "21" },
+                { "title": "Master Data Manager", "id": "34" },
+                { "title": "Accounting, Reporting", "id": "35" }
+            ]
+        },
+        {
+            "title": "Planning  Specialist",
+            "class_name": "blue",
+            "id": "p22",
+            "children": [{ "title": "Planning  Specialist", "id": "22" }]
+        },
+        {
+            "title": "Assistant RTR",
+            "class_name": "blue",
+            "id": "p23",
+            "children": [{ "title": "Assistant RTR", "id": "23" }]
+        },
+        {
+            "title": "Head Of  Customer Finance",
+            "class_name": "blue",
+            "id": "p24",
+            "children": [
+                { "title": "Sr Customer  Finance Manager", "id": "24" }
+            ]
+        },
+        {
+            "title": "Sr Customer  Finance Manager",
+            "class_name": "blue",
+            "id": "p25",
+            "children": [
+                { "title": "Sr Customer  Finance Manager", "id": "25" }
+            ]
+        },
+        {
+            "title": "Customer  Finance Manager",
+            "class_name": "blue",
+            "id": "p26",
+            "children": [{ "title": "Customer  Finance Manager", "id": "26" }]
+        },
+        {
+            "title": "Jr Customer  Finance Manager",
+            "class_name": "blue",
+            "id": "p27",
+            "children": [
+                { "title": "Jr Customer  Finance Manager", "id": "27" }
+            ]
+        },
+        {
+            "title": "Asst Customer  Finance Manager",
+            "class_name": "blue",
+            "id": "p28",
+            "children": [
+                { "title": "Asst Customer  Finance Manager", "id": "28" }
+            ]
+        },
+        {
+            "title": "Head Of  Category Finance",
+            "class_name": "blue",
+            "id": "p29",
+            "children": [
+                { "title": "Head Of  Customer Finance", "id": "24" },
+                { "title": "Head Of  Category Finance", "id": "29" }
+            ]
+        },
+        {
+            "title": "Sr Category  Finance Manager",
+            "class_name": "blue",
+            "id": "p30",
+            "children": [
+                { "title": "Sr Category  Finance Manager", "id": "30" }
+            ]
+        },
+        {
+            "title": "Category  Finance Manager",
+            "class_name": "blue",
+            "id": "p31",
+            "children": [{ "title": "Category  Finance Manager", "id": "31" }]
+        },
+        {
+            "title": "Jr Category  Finance Manager",
+            "class_name": "blue",
+            "id": "p32",
+            "children": [
+                { "title": "Jr Category  Finance Manager", "id": "32" }
+            ]
+        },
+        {
+            "title": "Asst Category  Finance Manager",
+            "class_name": "blue",
+            "id": "p33",
+            "children": [
+                { "title": "Asst Category  Finance Manager", "id": "33" }
+            ]
+        }
+    ],
+    "coordinate": [
+        "d1     d2      d3      d4      d5      d6      d7",
+        ".      .       p9      p15     p15     p24     p29",
+        "p1     p2      p10     .       p20     p25     p30",
+        "p3     p7      p11     .       p21     p26     p31",
+        "p4     p8      p12     p16     p22     p27     p32",
+        "p5     .       p13     p17     p23     p28     p33",
+        ".      .       p14     p18     .       .       .",
+        ".      .       .       p19     .       .       ."
+    ]
+}
