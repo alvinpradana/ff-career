@@ -1,4 +1,14 @@
 @font-face {
+    font-family: "Brevia Bold";
+    src: url("../font/Brevia/Brevia-Bold.otf");
+}
+
+@font-face {
+    font-family: "Brevia Black";
+    src: url("../font/Brevia/Brevia-Black.otf");
+}
+
+@font-face {
     font-family: "Brevia Medium";
     src: url("../font/Brevia/Brevia-Medium.otf");
 }
@@ -153,14 +163,19 @@
     src: url("../font/Assistant/Assistant-ExtraBold.ttf");
 }
 
+@font-face {
+    font-family: "Bree Serif";
+    src: url("../font/BreeSerif/BreeSerif-Regular.ttf");
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Assistant', sans-serif;
-    // background-image: linear-gradient(to bottom, rgb(108,185,233), rgb(163,218,242));
+    font-family: 'Assistant Regular', sans-serif;
     background-image: url("../assets/bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -210,7 +225,7 @@ body {
     }
 
     h1 {
-        font-family: 'Baloo 2', sans-serif !important;
+        font-family: 'Baloo Da Extrabold', sans-serif !important;
         font-style: normal;
         font-weight: 800;
         color: #0451A4;
@@ -221,7 +236,7 @@ body {
     }
 
     h2 {
-        font-family: 'Allan', sans-serif;
+        font-family: 'Allan Regular', sans-serif;
         font-weight: 400;
         color: #fff;
         font-size: 3vw;
@@ -343,23 +358,23 @@ body {
         z-index: 999;
 
         .title {
-            font-family: 'Alfa Slab One', cursive;
+            font-family: 'Brevia Bold', cursive;
             position: absolute;
             color: #693514;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 900;
             font-size: 2.5vw;
             top: 8vh;
             left: 16vh;
         }
 
         .subtitle {
-            font-family: 'Alegreya', serif;
+            font-family: 'Brevia Medium', serif;
             color: #693514;
             position: absolute;
             font-style: normal;
             font-weight: 700;
-            font-size: 2.8vw;
+            font-size: 2vw;
             line-height: 7vh;
             text-align: center;
             top: 18vh;
@@ -368,35 +383,35 @@ body {
     }
 
     .board-2 {
-        background-image: url("../assets/page-3/board.svg");
+        background-image: url("../assets/page-3/bulb-message.svg");
         background-size: cover;
         position: absolute;
         width: 71.3vh;
         height: 51vh;
-        transform: translate(80%, 55%);
+        transform: translate(80%, 0%);
         z-index: 999;
 
         .title {
-            font-family: 'Inter Regular', sans-serif;
+            font-family: 'Brevia Bold', cursive;
             position: absolute;
             font-style: normal;
-            font-size: 2.6vw;
+            font-size: 2.4vw;
             line-height: 5.2vh;
             text-align: center;
             font-weight: 600;
             color: #0451A4;
-            transform: translate(23%, 135%);
+            transform: translate(15%, 135%);
         }
 
         .subtitle {
-            font-family: 'Inter Regular', sans-serif;
+            font-family: 'Brevia Medium', cursive;
             font-style: normal;
-            font-weight: 400;
-            font-size: 1.8vw;
+            font-weight: 500;
+            font-size: 1.5vw;
             line-height: 3.6vh;
             text-align: center;
             color: #000;
-            transform: translate(5%, 250%);
+            transform: translate(3%, 250%);
         }
     }
 
@@ -412,26 +427,26 @@ body {
 
     // Page 4
     .board-3 {
-        background-image: url("../assets/page-3/board.svg");
+        background-image: url("../assets/page-3/bulb-message.svg");
         background-size: cover;
         position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 71.3vh;
-        height: 51vh;
-        transform: translate(80%, 55%);
+        width: 67vh;
+        height: 49vh;
+        transform: translate(86%, 0%);
         z-index: 999;
 
         .subtitle {
-            font-family: 'Inter Regular', sans-serif;
+            font-family: 'Brevia Medium', sans-serif;
             font-style: normal;
             font-weight: 400;
-            font-size: 1.8vw;
+            font-size: 1.3vw;
             line-height: 3.6vh;
             text-align: center;
             color: #000;
-            transform: translate(6%, 65%);
+            transform: translate(0%, 70%);
         }
 
         .btn-login {
@@ -441,8 +456,8 @@ body {
             border-style: none;
             padding: .8rem 3rem;
             color: #fff;
-            transform: translate(15%, 300%);
-            font-size: 1.6vw;
+            transform: translate(0%, 250%);
+            font-size: 1.3vw;
             z-index: 999;
 
             &:hover {
@@ -522,9 +537,9 @@ body {
         width: 138vh;
         height: 13vh;
         z-index: 999;
-        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Brevia Black', cursive;
+        font-weight: 900;
         color: #693514;
-        font-style: normal;
         text-align: center;
         font-size: 2.6vw;
         display: flex;
@@ -586,14 +601,13 @@ body {
 
             &:hover {
                 cursor: pointer;
-                border-style: none;
             }
 
             h3 {
-                font-family: 'Inter Regular';
-                font-weight: 400;
-                font-size: 1.6vw;
-                color: #0170A4;
+                font-family: 'Brevia Medium';
+                font-weight: 500;
+                font-size: 1.5vw;
+                color: #0063B1;
                 text-transform: uppercase;
                 text-align: center;
             }
@@ -631,14 +645,14 @@ body {
         }
 
         .title-role {
-            font-family: 'Baloo Da Regular', cursive !important;
+            font-family: 'Brevia Black', cursive !important;
             position: relative;
             top: -4vh;
-            font-weight: 800;
+            font-weight: 700;
             font-size: 2.6vw;
             line-height: 5.5vh;
             text-align: center;
-            color: #0170A4;
+            color: #0063B1;
         }
 
         .card-role-position {
@@ -748,8 +762,8 @@ body {
         transform: translate(12.5%, 30%);
         width: 138vh;
         height: 13vh;
-        font-family: 'Baloo Da Regular', cursive !important;
-        font-weight: 800;
+        font-family: 'Bree Serif', cursive !important;
+        font-weight: 400;
         color: #0063B1;
         font-style: normal;
         text-align: center;
@@ -785,7 +799,6 @@ body {
 
             &:hover {
                 cursor: pointer;
-                border-style: none;
             }
 
             h3 {
@@ -809,7 +822,7 @@ body {
     // Page 13
 
     .subtitle-certifications {
-        font-family: 'Inter Regular', sans-serif;
+        font-family: 'Brevia Medium', sans-serif;
         font-weight: 400;
         font-size: 1.6vw;
         text-align: center;
@@ -860,7 +873,7 @@ body {
         transform: translate(30%, 6%);
 
         .title-experience {
-            font-family: 'Baloo Da Regular', cursive !important;
+            font-family: 'Baloo Da Extrabold', cursive !important;
             position: relative;
             top: 8vh;
             font-weight: 800;
@@ -895,7 +908,7 @@ body {
                 cursor: pointer;
 
                 h1 {
-                    font-family: 'Baloo Da Regular', cursive !important;
+                    font-family: 'Baloo Da Extrabold', cursive !important;
                     color: #000000;
                     font-size: 2.6vw;
                 }
@@ -945,8 +958,8 @@ body {
         width: 138vh;
         height: 13vh;
         z-index: 999;
-        font-family: 'Alfa Slab One', cursive;
-        color: #693514;
+        font-family: 'Alfa Slab One Regular', cursive;
+        color: #673414;
         font-style: normal;
         text-align: center;
         font-size: 2.6vw;
@@ -1237,14 +1250,28 @@ body {
                 padding: .3rem;
                 overflow: auto;
 
-                ul {
-                    li:only-child {
-                        list-style: none;
-                    }
+                &.not-flow ul li {
+                    color: #FFFFFF !important;
+                }
 
-                    li:not(:only-child) {
-                        font-size: .6vw;
-                        list-style: disc;
+                ul {
+                    li {
+                        &:only-child {
+                            list-style: none;
+                        }
+
+                        &:not(:only-child) {
+                            font-size: .6vw;
+                            list-style: disc;
+
+                            &:first-child {
+                                color: white;
+                            }
+
+                            &:not(:first-child) {
+                                color: #474243;
+                            }
+                        }
                     }
 
                     margin: 0 .8rem;
@@ -1265,10 +1292,11 @@ body {
                 height: auto;
                 opacity: .7;
                 background-color: #FFFFFF;
+                color: #FFFFFF;
 
-                &:hover {
+                &:hover ul li {
                     opacity: 1;
-                    color: #000;
+                    color: #000 !important;
                     transition: all .5s;
                 }
             }
@@ -1376,27 +1404,26 @@ body {
             height: 350px;
             overflow-y: auto;
             margin: 0 3rem;
-            
+
             &::-webkit-scrollbar {
                 background-color: #D9D9D9;
                 border-radius: 10px;
                 width: 14px;
             }
 
-            &::-webkit-scrollbar-thumb
-            {
+            &::-webkit-scrollbar-thumb {
                 background-color: #77BBE6;
                 border-radius: 10px;
             }
-            
-            
+
+
             .content {
                 display: flex;
                 padding: .8rem 0;
-                
+
                 .left-col {
                     flex: 20%;
-                    
+
                     div {
                         color: #0063B1;
                         font-family: 'Baloo Da Extrabold', cursive !important;
@@ -1404,10 +1431,10 @@ body {
                         text-align: left;
                     }
                 }
-                
+
                 .right-col {
                     flex: 80%;
-                    
+
                     div {
                         color: #000000;
                         font-family: 'Brevia Medium', cursive !important;
@@ -1490,5 +1517,51 @@ body {
                 overflow: hidden;
             }
         }
-    }    
+    }
+
+    // Page 20
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 22vh;
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 .3rem;
+
+            .card-body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: .5rem;
+                border: .2em solid #0468BA;
+                border-radius: 2em;
+
+                img {
+                    width: 43vh;
+                    height: 22vh;
+                }
+            }
+
+            .play-btn {
+                font-family: 'Inter Bold';
+                font-size: 1vw;
+                margin: .5rem 0 .8rem 0;
+                background-color: #0063B1;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 1em;
+                width: 50%;
+                padding: .3rem 3rem;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
 }

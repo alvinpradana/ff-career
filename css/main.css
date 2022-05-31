@@ -1,4 +1,14 @@
 @font-face {
+  font-family: "Brevia Bold";
+  src: url("../font/Brevia/Brevia-Bold.otf");
+}
+
+@font-face {
+  font-family: "Brevia Black";
+  src: url("../font/Brevia/Brevia-Black.otf");
+}
+
+@font-face {
   font-family: "Brevia Medium";
   src: url("../font/Brevia/Brevia-Medium.otf");
 }
@@ -153,13 +163,18 @@
   src: url("../font/Assistant/Assistant-ExtraBold.ttf");
 }
 
+@font-face {
+  font-family: "Bree Serif";
+  src: url("../font/BreeSerif/BreeSerif-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Assistant Regular', sans-serif;
   background-image: url("../assets/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -220,7 +235,7 @@ body .text-center .content .bird {
 }
 
 body h1 {
-  font-family: 'Baloo 2', sans-serif !important;
+  font-family: 'Baloo Da Extrabold', sans-serif !important;
   font-style: normal;
   font-weight: 800;
   color: #0451A4;
@@ -231,7 +246,7 @@ body h1 {
 }
 
 body h2 {
-  font-family: 'Allan', sans-serif;
+  font-family: 'Allan Regular', sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: 3vw;
@@ -355,23 +370,23 @@ body .board {
 }
 
 body .board .title {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Brevia Bold', cursive;
   position: absolute;
   color: #693514;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 2.5vw;
   top: 8vh;
   left: 16vh;
 }
 
 body .board .subtitle {
-  font-family: 'Alegreya', serif;
+  font-family: 'Brevia Medium', serif;
   color: #693514;
   position: absolute;
   font-style: normal;
   font-weight: 700;
-  font-size: 2.8vw;
+  font-size: 2vw;
   line-height: 7vh;
   text-align: center;
   top: 18vh;
@@ -379,39 +394,39 @@ body .board .subtitle {
 }
 
 body .board-2 {
-  background-image: url("../assets/page-3/board.svg");
+  background-image: url("../assets/page-3/bulb-message.svg");
   background-size: cover;
   position: absolute;
   width: 71.3vh;
   height: 51vh;
-  -webkit-transform: translate(80%, 55%);
-          transform: translate(80%, 55%);
+  -webkit-transform: translate(80%, 0%);
+          transform: translate(80%, 0%);
   z-index: 999;
 }
 
 body .board-2 .title {
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Brevia Bold', cursive;
   position: absolute;
   font-style: normal;
-  font-size: 2.6vw;
+  font-size: 2.4vw;
   line-height: 5.2vh;
   text-align: center;
   font-weight: 600;
   color: #0451A4;
-  -webkit-transform: translate(23%, 135%);
-          transform: translate(23%, 135%);
+  -webkit-transform: translate(15%, 135%);
+          transform: translate(15%, 135%);
 }
 
 body .board-2 .subtitle {
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Brevia Medium', cursive;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1.8vw;
+  font-weight: 500;
+  font-size: 1.5vw;
   line-height: 3.6vh;
   text-align: center;
   color: #000;
-  -webkit-transform: translate(5%, 250%);
-          transform: translate(5%, 250%);
+  -webkit-transform: translate(3%, 250%);
+          transform: translate(3%, 250%);
 }
 
 body .human {
@@ -426,7 +441,7 @@ body .human {
 }
 
 body .board-3 {
-  background-image: url("../assets/page-3/board.svg");
+  background-image: url("../assets/page-3/bulb-message.svg");
   background-size: cover;
   position: absolute;
   display: -webkit-box;
@@ -439,23 +454,23 @@ body .board-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 71.3vh;
-  height: 51vh;
-  -webkit-transform: translate(80%, 55%);
-          transform: translate(80%, 55%);
+  width: 67vh;
+  height: 49vh;
+  -webkit-transform: translate(86%, 0%);
+          transform: translate(86%, 0%);
   z-index: 999;
 }
 
 body .board-3 .subtitle {
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Brevia Medium', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.8vw;
+  font-size: 1.3vw;
   line-height: 3.6vh;
   text-align: center;
   color: #000;
-  -webkit-transform: translate(6%, 65%);
-          transform: translate(6%, 65%);
+  -webkit-transform: translate(0%, 70%);
+          transform: translate(0%, 70%);
 }
 
 body .board-3 .btn-login {
@@ -465,9 +480,9 @@ body .board-3 .btn-login {
   border-style: none;
   padding: .8rem 3rem;
   color: #fff;
-  -webkit-transform: translate(15%, 300%);
-          transform: translate(15%, 300%);
-  font-size: 1.6vw;
+  -webkit-transform: translate(0%, 250%);
+          transform: translate(0%, 250%);
+  font-size: 1.3vw;
   z-index: 999;
 }
 
@@ -545,9 +560,9 @@ body .board-6 {
   width: 138vh;
   height: 13vh;
   z-index: 999;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Brevia Black', cursive;
+  font-weight: 900;
   color: #693514;
-  font-style: normal;
   text-align: center;
   font-size: 2.6vw;
   display: -webkit-box;
@@ -634,14 +649,13 @@ body .card-row .card {
 
 body .card-row .card:hover {
   cursor: pointer;
-  border-style: none;
 }
 
 body .card-row .card h3 {
-  font-family: 'Inter Regular';
-  font-weight: 400;
-  font-size: 1.6vw;
-  color: #0170A4;
+  font-family: 'Brevia Medium';
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: #0063B1;
   text-transform: uppercase;
   text-align: center;
 }
@@ -690,14 +704,14 @@ body .card-role .logo-role .logo-1 {
 }
 
 body .card-role .title-role {
-  font-family: 'Baloo Da Regular', cursive !important;
+  font-family: 'Brevia Black', cursive !important;
   position: relative;
   top: -4vh;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.6vw;
   line-height: 5.5vh;
   text-align: center;
-  color: #0170A4;
+  color: #0063B1;
 }
 
 body .card-role .card-role-position {
@@ -841,8 +855,8 @@ body .board-10 {
           transform: translate(12.5%, 30%);
   width: 138vh;
   height: 13vh;
-  font-family: 'Baloo Da Regular', cursive !important;
-  font-weight: 800;
+  font-family: 'Bree Serif', cursive !important;
+  font-weight: 400;
   color: #0063B1;
   font-style: normal;
   text-align: center;
@@ -903,7 +917,6 @@ body .card-row-department .card-department {
 
 body .card-row-department .card-department:hover {
   cursor: pointer;
-  border-style: none;
 }
 
 body .card-row-department .card-department h3 {
@@ -929,7 +942,7 @@ body .card-row-department .card-department img {
 }
 
 body .subtitle-certifications {
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Brevia Medium', sans-serif;
   font-weight: 400;
   font-size: 1.6vw;
   text-align: center;
@@ -992,7 +1005,7 @@ body .card-experience {
 }
 
 body .card-experience .title-experience {
-  font-family: 'Baloo Da Regular', cursive !important;
+  font-family: 'Baloo Da Extrabold', cursive !important;
   position: relative;
   top: 8vh;
   font-weight: 800;
@@ -1036,7 +1049,7 @@ body .card-experience .department .title-department {
 }
 
 body .card-experience .department .title-department h1 {
-  font-family: 'Baloo Da Regular', cursive !important;
+  font-family: 'Baloo Da Extrabold', cursive !important;
   color: #000000;
   font-size: 2.6vw;
 }
@@ -1089,8 +1102,8 @@ body .board-finance {
   width: 138vh;
   height: 13vh;
   z-index: 999;
-  font-family: 'Alfa Slab One', cursive;
-  color: #693514;
+  font-family: 'Alfa Slab One Regular', cursive;
+  color: #673414;
   font-style: normal;
   text-align: center;
   font-size: 2.6vw;
@@ -1472,6 +1485,10 @@ body .grid-board .grid-container div {
   overflow: auto;
 }
 
+body .grid-board .grid-container div.not-flow ul li {
+  color: #FFFFFF !important;
+}
+
 body .grid-board .grid-container div ul {
   margin: 0 .8rem;
 }
@@ -1483,6 +1500,14 @@ body .grid-board .grid-container div ul li:only-child {
 body .grid-board .grid-container div ul li:not(:only-child) {
   font-size: .6vw;
   list-style: disc;
+}
+
+body .grid-board .grid-container div ul li:not(:only-child):first-child {
+  color: white;
+}
+
+body .grid-board .grid-container div ul li:not(:only-child):not(:first-child) {
+  color: #474243;
 }
 
 body .grid-board .grid-container .red {
@@ -1499,11 +1524,12 @@ body .grid-board .grid-container .not-flow {
   height: auto;
   opacity: .7;
   background-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-body .grid-board .grid-container .not-flow:hover {
+body .grid-board .grid-container .not-flow:hover ul li {
   opacity: 1;
-  color: #000;
+  color: #000 !important;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -1750,5 +1776,69 @@ body .big-card-role .share-btn img {
   bottom: 0;
   padding: 3rem;
   overflow: hidden;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  top: 22vh;
+}
+
+body .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 .3rem;
+}
+
+body .container .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: .5rem;
+  border: .2em solid #0468BA;
+  border-radius: 2em;
+}
+
+body .container .card .card-body img {
+  width: 43vh;
+  height: 22vh;
+}
+
+body .container .card .play-btn {
+  font-family: 'Inter Bold';
+  font-size: 1vw;
+  margin: .5rem 0 .8rem 0;
+  background-color: #0063B1;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1em;
+  width: 50%;
+  padding: .3rem 3rem;
+  text-align: center;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
