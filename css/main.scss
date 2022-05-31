@@ -179,7 +179,7 @@ body {
         background-image: url('../assets/logo.svg');
         background-size: cover;
     }
-    
+
     .text-center {
         position: absolute;
         top: 60%;
@@ -188,12 +188,12 @@ body {
         width: fit-content;
         height: fit-content;
         z-index: 999;
-        
+
         .content {
             position: relative;
             display: flex;
             flex-direction: column;
-            align-items: center; 
+            align-items: center;
 
             .bird {
                 position: absolute;
@@ -817,13 +817,13 @@ body {
         position: relative;
         top: -3vh;
     }
-    
+
     .card-certifications {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         max-width: 100%;
-        
+
         .card-btn-certifications {
             display: flex;
             font-family: 'Inter Regular', cursive;
@@ -893,7 +893,7 @@ body {
                 padding: 0 0 .5rem 0;
                 margin-top: 1.5rem;
                 cursor: pointer;
-                
+
                 h1 {
                     font-family: 'Baloo Da Regular', cursive !important;
                     color: #000000;
@@ -1036,7 +1036,8 @@ body {
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.4);;
+        background: rgba(0, 0, 0, 0.4);
+        ;
     }
 
     .bulb-message {
@@ -1094,7 +1095,7 @@ body {
         align-items: center;
         justify-content: center;
         z-index: 999999;
-        
+
         img {
             width: 16vh;
             height: 16vh;
@@ -1133,7 +1134,7 @@ body {
                 max-width: 17vh;
                 max-height: 8.5vh;
                 padding: .3rem;
-                
+
                 .department-head {
                     display: flex;
                     align-items: center;
@@ -1153,7 +1154,7 @@ body {
                         padding: .3rem;
                     }
                 }
-    
+
                 .department-role {
                     position: relative;
                     display: flex;
@@ -1164,7 +1165,7 @@ body {
                     background-color: #0094D9;
                     border-radius: 20px;
                     margin: .3rem;
-    
+
                     .role-title {
                         font-family: 'Asap Regular', sans-serif !important;
                         font-size: 14px;
@@ -1172,68 +1173,6 @@ body {
                         line-height: 16px;
                         color: #FFFFFF;
                         padding: .3rem;
-                    }
-                }
-
-                .blur {
-                    opacity: 0.3;
-                }
-            }
-        }
-
-        .footer-board {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            position: absolute;
-            width: 85%;
-            bottom: 7vh;
-
-            .left-footer {
-                position: relative;
-                border-left: .3rem solid #0468BA;
-                padding: 0 .3rem;
-
-                h1, h2 {
-                    font-family: 'Inter Regular', sans-serif;
-                }
-
-                h1 {
-                    font-weight: 400;
-                    text-align: left;
-                    color: #000000;
-                    font-size: .9vw;
-                }
-
-                p {
-                    font-size: .9vw;
-                    font-weight: 700;
-                    color: #0468BA;
-                }
-            }
-
-            .right-footer {
-                position: relative;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 2rem;
-
-                .share-btn {
-                    img {
-                        width: 4vh;
-                    }
-                }
-
-                .left-arrow {
-                    img {
-                        width: 6vh;
-                    }
-                }
-
-                .right-arrow {
-                    img {
-                        width: 6vh;
                     }
                 }
             }
@@ -1251,7 +1190,7 @@ body {
         left: 7vh;
     }
 
-    // Page 18 Grid
+    // Page 18
 
     .grid-board {
         position: relative;
@@ -1279,7 +1218,7 @@ body {
             display: grid;
             gap: .3em;
             top: 10vh;
-    
+
             div {
                 max-width: 16vh;
                 min-height: 6vh;
@@ -1302,11 +1241,12 @@ body {
                     li:only-child {
                         list-style: none;
                     }
-                    
-                    li:not(:only-child){
+
+                    li:not(:only-child) {
                         font-size: .6vw;
                         list-style: disc;
                     }
+
                     margin: 0 .8rem;
                 }
             }
@@ -1315,7 +1255,7 @@ body {
                 height: auto;
                 background-color: #F92B58;
             }
-            
+
             .blue {
                 height: auto;
                 background-color: #0094D9;
@@ -1347,7 +1287,8 @@ body {
                 border-left: .3rem solid #0468BA;
                 padding: 0 .3rem;
 
-                h1, p {
+                h1,
+                p {
                     font-family: 'Inter Regular', sans-serif;
                 }
 

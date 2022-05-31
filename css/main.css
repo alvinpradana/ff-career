@@ -1397,74 +1397,6 @@ body .big-board .department-board .department-item .department-role .role-title 
   padding: .3rem;
 }
 
-body .big-board .department-board .department-item .blur {
-  opacity: 0.3;
-}
-
-body .big-board .footer-board {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  position: absolute;
-  width: 85%;
-  bottom: 7vh;
-}
-
-body .big-board .footer-board .left-footer {
-  position: relative;
-  border-left: .3rem solid #0468BA;
-  padding: 0 .3rem;
-}
-
-body .big-board .footer-board .left-footer h1, body .big-board .footer-board .left-footer h2 {
-  font-family: 'Inter Regular', sans-serif;
-}
-
-body .big-board .footer-board .left-footer h1 {
-  font-weight: 400;
-  text-align: left;
-  color: #000000;
-  font-size: .9vw;
-}
-
-body .big-board .footer-board .left-footer p {
-  font-size: .9vw;
-  font-weight: 700;
-  color: #0468BA;
-}
-
-body .big-board .footer-board .right-footer {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 2rem;
-}
-
-body .big-board .footer-board .right-footer .share-btn img {
-  width: 4vh;
-}
-
-body .big-board .footer-board .right-footer .left-arrow img {
-  width: 6vh;
-}
-
-body .big-board .footer-board .right-footer .right-arrow img {
-  width: 6vh;
-}
-
 body .human-17 {
   position: absolute;
   background-image: url("../assets/page-6/human.svg");
@@ -1597,7 +1529,8 @@ body .grid-board .footer-board .left-footer {
   padding: 0 .3rem;
 }
 
-body .grid-board .footer-board .left-footer h1, body .grid-board .footer-board .left-footer p {
+body .grid-board .footer-board .left-footer h1,
+body .grid-board .footer-board .left-footer p {
   font-family: 'Inter Regular', sans-serif;
 }
 

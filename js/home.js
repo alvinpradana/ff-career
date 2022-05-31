@@ -50,8 +50,8 @@ $(document).ready(function () {
                         }
                     );
                     $("#svgContainer").HTMLSVGconnect({
-                        stroke: "#000",
-                        strokeWidth: 8,
+                        stroke: "#0468BABF",
+                        strokeWidth: 3,
                         orientation: "auto",
                         paths: path,
                     });
