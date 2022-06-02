@@ -10,17 +10,24 @@
 </head>
 
 <body>
-    <div class="cloud-1"></div>
-    <div class="cloud-2"></div>
-    <div class="land"></div>
-    <div class="fence"></div>
-    <div class="farm"></div>
-    <div class="cow-1"></div>
-    <div class="row">
-        <div class="cow-2" id="first-cow"></div>
-        <div class="cow-3" id="second-cow"></div>
+    <div class="cloud">
+        <div class="left-cloud">
+            <img src="./assets/page-2/cloud-1.svg" alt="Left Cloud">
+        </div>
+        <div class="right-cloud">
+            <img src="./assets/page-2/cloud-2.svg" alt="Right Cloud">
+        </div>
+    </div>
+    <img src="./assets/page-2/land.svg" alt="Land" class="land">
+    <img src="./assets/page-2/fence.svg" alt="Fence" class="fence">
+    <img src="./assets/page-2/farm.svg" alt="Farm" class="farm">
+    <div class="static-cow"></div>
+    <div class="cow">
+        <div class="left-cow" id="left-cow"></div>
+        <div class="right-cow" id="right-cow"></div>
     </div>
     <div class="board">
+        <img src="./assets/page-2/board.svg" alt="Board" class="board-img">
         <div class="title">DID YOU KNOW ?</div>
         <div class="subtitle">3 out of 10 Flaggers move roles<br>
             within the first 3 years.</div>
@@ -30,8 +37,8 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery.sprite-animator.min.js"></script>
     <script>
-        var firstCow = $('.row #first-cow');
-        var spriteAnimator = firstCow.spriteAnimator({
+        var leftCow = $('.cow #left-cow');
+        var spriteAnimator = leftCow.spriteAnimator({
             cols: 4,
             rows: 1
         }).play({
@@ -40,8 +47,8 @@
             delay: 200
         });
 
-        var secondCow = $('.row #second-cow');
-        var spriteAnimator = secondCow.spriteAnimator({
+        var rightCow = $('.cow #right-cow');
+        var spriteAnimator = rightCow.spriteAnimator({
             cols: 4,
             rows: 1
         }).play({
